@@ -23,14 +23,15 @@ module.exports = () => {
         title: 'Text Editor'
       }),
       new InjectManifest({
-        swSrc: './src-sw.js',
-        swDest: 'src-sw.js'
+        swSrc: './src.sw.js',
+        swDest: 'src.sw.js'
       }),
       new WebpackPwaManifest({
         name: 'TextEditor',
         short_name: 'TextEditor',
         description: 'Just Another Text Editor!',
         background_color: '#7eb4e2',
+        fingerprints: false,
         theme_color: '#7eb4e2',
         start_url: '/',
         publicPath: '/',
