@@ -50,5 +50,5 @@ THEN I should have proper build scripts for a webpack application
 
 ## Deployed to Heroku
 
-(link#1)[]
-(link#@)[]
+(link#1)[https://text-editor28.herokuapp.com/]
+(link#@)[https://git.heroku.com/text-editor28.git]
